@@ -184,8 +184,153 @@ h4{
     transform: translateY(-5px);
 }
 
+
+/* ------------- OFFER  ------------*/
 .offer{
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
     padding: 30 0;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+
+small{
+    color: #555;
+}
+
+
+/* ------ TESTIMONIAL --------- */
+
+
+.testimonial{
+    padding-top:100px ;
+}
+
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+
+
+
+/* --------- BRANDS --------- */
+
+
+.brands{
+    margin: 100px auto;
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+
+
+/* ---------- FOOTER -------------- */
+
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.foooter-col-1, .foooter-col-2, .foooter-col-3, .foooter-col-1{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.foooter-col-1{
+    flex-basis: 30%;
+}
+
+.foooter-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.foooter-col-2 img {
+    width: 180px;
+}
+
+.foooter-col-3, .foooter-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
 }
