@@ -218,7 +218,8 @@ small{
 }
 
 .testimonial .col-3 img{
-    width: 50px;
+    width: 70px;
+    height: 70px;
     margin-top: 20px;
     border-radius: 50%;
 }
@@ -642,9 +643,49 @@ form a{
 
 
 
+/*ABOUT PAGE*/
 
-
-
+.container-abt {
+      max-width: 1080px;
+      margin: auto;
+    padding: 50px;
+    background: radial-gradient(#fff, #ffd6d6);
+    text-align: justify;
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .intro img {
+      max-width: 100%;
+      width: 300px;
+      height: auto;
+      margin-right: 20px;
+      border-radius: 8px;
+    }
+    .intro-text {
+      flex: 1;
+    }
+    h1, h2 {
+      color: #2e7d32;
+      margin: 10px;
+    }
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px;
+    }
+    .column {
+      flex: 1;
+      min-width: 300px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
 
 
 
@@ -674,6 +715,26 @@ form a{
     }
     .cart-info p{
         display: none;
+    }
+    .intro {
+        flex-direction: column;
+      }
+      .intro-text {
+        padding-left: 0;
+      }
+    }
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .column {
+      flex: 1;
+      min-width: 280px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
     }
 }
 
